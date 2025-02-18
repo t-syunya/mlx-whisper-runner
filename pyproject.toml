@@ -1,0 +1,19 @@
+[project]
+name = "mlx-whisper-runner"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "t-syunya",email = "tsyunyam@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mlx-whisper (>=0.4.2,<0.5.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
